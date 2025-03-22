@@ -4,8 +4,9 @@
     <title>Posts on Shivam&#39;s Corner</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Shivam&#39;s Corner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2024 20:12:16 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

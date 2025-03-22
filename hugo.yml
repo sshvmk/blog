@@ -1,7 +1,7 @@
-baseURL: https://example.org/
+baseURL: https://sshvmk.pages.dev/
 languageCode: en-us
 title: Shivam's Corner
-theme: PaperModX
+theme: PaperMod
 
 enableEmoji: true
 mainsections: ["posts", "papermod"]
