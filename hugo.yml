@@ -3,8 +3,20 @@ languageCode: en-us
 title: Shivam's Corner
 theme: PaperMod
 
+# enableEmoji: true
+# mainsections: ["posts", "papermod"]
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 enableEmoji: true
+pygmentsUseClasses: true
 mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
 
 outputs:
   home:
@@ -28,29 +40,51 @@ menu:
     # weight: 10
 
 params:
-  author: Shivam
+  author: Shivam Kushwaha
   homeInfoParams:
     Title: 🌻 welcome to my corner
 
-    Content: |
-      Hi, I am Shivam. Currently, I am working in Central Data Science at Paytm. Whatever I post here is my effort to improve the skill of writing technical things.   
-      - I believe in hardwork, constant learning and gratitude.
-      - Find my thoughts on random things on my [**Bear blog**](https://sshvmk.bearblog.dev/)
+    Content: >
+      Hi, I am Shivam. Currently, I am working in Central Data Science at Paytm. Whatever I post here is my effort to improve the skill of writing technical things.
 
-      - I also post my raw notes on [**my notes site**](https://sshvmk.github.io/note/)
-  ShowShareButtons: false
+      > Find my thoughts on random things on my [**Bear blog**](https://sshvmk.bearblog.dev/) \
+
+      > I also post my raw notes on [**my notes site**](https://sshvmk.github.io/note/)
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
   ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  ShowCodeCopyButtons: true
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
 
   socialIcons: # optional
     - name: "github-simple"
       title: "Check work here"
-      url: "https://github.com/shivammk27"
+      url: "https://github.com/sshvmk"
     - name: "twitter"
       title: "See me on Twitter"
-      url: "https://twitter.com/shivammk27"
+      url: "https://twitter.com/sshvmk"
     - name: "linkedin"
       title: "Connect on LinkedIn"
       url: "https://www.linkedin.com/in/shivamkushwaha27/"
