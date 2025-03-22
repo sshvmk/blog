@@ -1,0 +1,59 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Shivam's Corner
+theme: PaperModX
+
+enableEmoji: true
+mainsections: ["posts", "papermod"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Archive
+      url: archives
+      weight: 5
+    # - name: Projects
+    # url: projects
+    # weight: 10
+
+params:
+  author: Shivam
+  homeInfoParams:
+    Title: 🌻 welcome to my corner
+    
+    Content: |
+      Hi, I am Shivam. Currently, I am working in Central Data Science at Paytm. Whatever I post here is my effort to improve the skill of writing technical things.   
+      - I believe in hardwork, constant learning and gratitude.
+      - Find my thoughts on random things on my [**Bear blog**](https://sshvmk.bearblog.dev/)
+
+      - I also post my raw notes on [**my notes site**](https://sshvmk.github.io/note/)
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPageNums: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
+
+  socialIcons: # optional
+    - name: "github-simple"
+      title: "Check work here"
+      url: "https://github.com/shivammk27"
+    - name: "twitter"
+      title: "See me on Twitter"
+      url: "https://twitter.com/shivammk27"
+    - name: "linkedin"
+      title: "Connect on LinkedIn"
+      url: "https://www.linkedin.com/in/shivamkushwaha27/"
+    - name: "leetcode"
+      title: "My lc profile"
+      url: "https://leetcode.com/u/sshvmk/"
