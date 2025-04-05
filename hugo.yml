@@ -45,7 +45,7 @@ params:
     Title: 🌻 welcome to my corner
 
     Content: >
-      Hi, I am Shivam. Currently, I am working in Central Data Science at Paytm. Whatever I post here is my effort to improve the skill of writing technical things.
+      Hi, I am Shivam. Currently, I am working as a Data Scientist at a fintech organisation. Whatever I post here is my effort to improve the skill of writing technical things.
 
       > Find my thoughts on random things on my [**Bear blog**](https://sshvmk.bearblog.dev/) \
 
@@ -85,9 +85,6 @@ params:
     - name: "twitter"
       title: "See me on Twitter"
       url: "https://twitter.com/sshvmk"
-    - name: "linkedin"
-      title: "Connect on LinkedIn"
-      url: "https://www.linkedin.com/in/shivamkushwaha27/"
     - name: "leetcode"
       title: "My lc profile"
       url: "https://leetcode.com/u/sshvmk/"
